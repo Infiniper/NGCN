@@ -1,0 +1,104 @@
+/* Container */
+.research-container {
+  padding: 4rem 2rem;
+  background: #fdf6f1; /* same warm-beige as in screenshot */
+  min-height: 100vh;
+}
+
+/* Header */
+.research-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.research-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #5b2c1a; /* deep brown heading */
+  margin-bottom: 0.5rem;
+}
+
+.research-header p {
+  color: #663c2d;
+  font-size: 1.1rem;
+}
+
+/* Grid */
+.research-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  justify-items: center;
+}
+
+/* Card */
+.research-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon */
+.icon-wrapper {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 1rem;
+}
+
+.icon-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Title */
+.research-card h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #5b2c1a;
+  margin-bottom: 0.5rem;
+}
+
+/* Description */
+.research-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #f5ede6;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  color: #5b2c1a;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .research-header h1 {
+    font-size: 2rem;
+  }
+
+  .research-card {
+    padding: 1.5rem;
+  }
+}
