@@ -1,4 +1,8 @@
+import React from "react";
 import './Gallery.css'
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+
 
 // function Gallery(){
 //     return(
@@ -9,50 +13,61 @@ import './Gallery.css'
 //     )
 // }
 
-import React from "react";
-
-const galleryImages = [
-  "/images/gallery1.jpg",
-  "/images/gallery2.jpg",
-  "/images/gallery3.jpg",
-  "/images/gallery4.jpg",
-  "/images/gallery5.jpg",
-  "/images/gallery6.jpg",
+const images = [
+    {
+        original: "/Images/IMG_1722.JPG",
+        thumbnail: "/Images/IMG_1722.JPG",
+    },
+    {
+        original: "/Images/g2.jpg",
+        thumbnail: "/Images/g2.jpg",
+    },
+    {
+        original: "/Images/g8.jpg",
+        thumbnail: "/Images/g8.jpg",
+    },
+    {
+        original: "/Images/g7.jpg",
+        thumbnail: "Images/g7.jpg",
+    },
+    {
+        original: "/Images/g5.jpg",
+        thumbnail: "/Images/g5.jpg",
+    },
+    {
+        original: "/Images/IMG_1730.JPG",
+        thumbnail: "/Images/IMG_1730.JPG",
+    },
 ];
 
 const Gallery = () => {
-  return (
-    <main className="bg-white min-h-screen py-16 px-6">
-      <section className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
-          Gallery
-        </h1>
-        <p className="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-          A glimpse of our events, seminars, and achievements. Browse through
-          the gallery to see our vibrant community in action.
-        </p>
-
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-          {galleryImages.map((src, idx) => (
-            <div
-              key={idx}
-              className="overflow-hidden rounded-lg shadow hover:shadow-xl transition"
-            >
-              <img
-                src={src}
-                alt={`Gallery ${idx + 1}`}
-                className="object-cover w-full h-64 hover:scale-105 transition-transform duration-300"
-              />
+    return (
+        <div>
+            <div className="title">
+                <div>
+                    <h1>Gallery</h1>
+                </div>
+                <div>
+                    <center>
+                        <p>
+                            The first class that dared to dream. Photos documenting the beginnings of our Next-Gen Computing research journey.
+                        </p>
+                    </center>
+                </div>
             </div>
-          ))}
+
+            <div className="gallery-container">
+                <ImageGallery
+                    items={images}
+                    showPlayButton={false}
+                    showFullscreenButton={true}
+                    autoPlay={true}
+                    slideInterval={4000}
+                    thumbnailPosition="bottom"
+                />
+            </div>
         </div>
-      </section>
-    </main>
-  );
+    );
 };
 
 export default Gallery;
-
-
-
-// export default Gallery;

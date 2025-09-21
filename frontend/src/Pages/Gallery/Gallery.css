@@ -1,0 +1,26 @@
+.title-gallery {
+  max-width: 1700px;
+  margin-bottom: 50px;
+}
+
+.gallery-container {
+  max-width: 1700px;
+  margin: 40px auto;
+}
+
+.image-gallery-content .image-gallery-slide img {
+  object-fit: cover;
+  height: 1700px; /* adjust as needed */
+  width: 100%;
+  border-radius: 12px;
+}
+
+.image-gallery-thumbnails {
+  margin-top: 12px;
+}
+
+.image-gallery-thumbnail img {
+  border-radius: 6px;
+  height: 70px;
+  object-fit: cover;
+}
