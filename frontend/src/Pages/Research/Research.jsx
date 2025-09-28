@@ -216,12 +216,12 @@ const Research = () => {
                 </div>
             </div>
             <div className="research-container">
-                <header className="research-header">
+                {/* <header className="research-header">
                     <h1>Our Research Areas</h1>
                     <p>
                         Exploring cutting-edge technologies that shape the future of computing and networking.
                     </p>
-                </header>
+                </header> */}
 
                 <div className="research-grid">
                     {researchData.map((item, index) => (

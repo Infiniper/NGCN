@@ -21,7 +21,7 @@
   padding: 4rem 20px;
   background: #F4E7E1;
   /* same warm-beige as in screenshot */
-  min-height: 100vh;
+  min-height: 80vh;
   /* background-color: red; */
 }
 
@@ -61,9 +61,10 @@
 .research-grid {
   display: flex;
   flex-wrap: wrap;           /* allow wrapping to multiple rows */
-  gap: 1.5rem;               /* space between cards */
+  gap: 1.8rem;               /* space between cards */
   justify-content: center;   /* center items in each row */
   max-width: 1800px;
+  
   margin: 0 auto;            /* center the container */
 }
 
