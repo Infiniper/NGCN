@@ -15,6 +15,7 @@
   min-height: 20rem; /* flexible min height */
   display: flex;
   flex-direction: column;
+  height: 100%;
   border-radius: 1rem; /* rounded-xl */
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   background-color: var(--surface);

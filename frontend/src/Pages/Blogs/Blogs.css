@@ -208,6 +208,8 @@
   text-align: center;
 }
 
+
+
 .latest-articles h1{
   padding: 2rem;
   text-align: center;
@@ -252,4 +254,8 @@
   .banner-description {
     font-size: 0.875rem;
   }
+  .latest-articles {
+  margin: -1.6rem;
+  text-align: center;
+}
 }
