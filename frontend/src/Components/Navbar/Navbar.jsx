@@ -25,14 +25,14 @@ function Navbar() {
             
             <div className={navLinksClasses}>
                 <Link to="/"><button><p>Home</p></button></Link>
-                <Link to="/Research"><button><p>Research</p></button></Link>
-                <Link to="/Publications"><button><p>Publications</p></button></Link>
-                <Link to="/People"><button><p>People</p></button></Link>
-                <Link to="/Gallery"><button><p>Gallery</p></button></Link>
-                <Link to="/blogs"><button><p>Blog</p></button></Link>
-                <Link to="/contact"><button><p>Contact</p></button></Link>
                 <Link to="/about"><button><p>About Us</p></button></Link>
                 <Link to="/kesdesikan"><button><p>Founder</p></button></Link>
+                <Link to="/people"><button><p>People</p></button></Link>
+                <Link to="/research"><button><p>Research</p></button></Link>
+                <Link to="/publications"><button><p>Publications</p></button></Link>
+                <Link to="/gallery"><button><p>Gallery</p></button></Link>
+                <Link to="/blogs"><button><p>Blog</p></button></Link>
+                <Link to="/contact"><button><p>Contact</p></button></Link>
             </div>
         </div>
     );

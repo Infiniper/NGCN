@@ -5,7 +5,7 @@
     "title": "Research Areas",
     "description": "Explore our cutting-edge research in Networking, ML, and IoT.",
     "tag": "7+ Active Areas",
-    "link": "/Research"
+    "link": "/research"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "title": "Publications",
     "description": "Peer-reviewed papers and research contributions.",
     "tag": "20+ Publications",
-    "link": "/Publications"
+    "link": "/publications"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "title": "Research Blogs",
     "description": "Insights and discoveries from our research team.",
     "tag": "Latest insights",
-    "link": "/Blog"
+    "link": "/blogs"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "title": "People",
     "description": "Meet the dedicated researchers driving our innovation forward.",
     "tag": "50+ Active Members",
-    "link": "/People"
+    "link": "/people"
   }
 ] 

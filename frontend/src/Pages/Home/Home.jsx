@@ -26,7 +26,7 @@ function Home() {
                     <h2>Research at the Edge of Computing & Networking</h2>
                 </div>
                 <div className={styles.titleButton}>
-                    <Link to='/About'><button><p>Learn more</p></button></Link>
+                    <Link to='/about'><button><p>Learn more</p></button></Link>
                 </div>
             </div>
             <div className={styles.block2}>
@@ -125,7 +125,7 @@ function Home() {
                     <p>Collaborate with us on cutting-edge research in computing and networking. Together, we can shape the future of technology.</p>
                 </div>
                 <div className={styles.titleButton}>
-                    <Link to='/Contact'><button><p>Get in touch</p></button></Link>
+                    <Link to='/contact'><button><p>Get in touch</p></button></Link>
                 </div>
             </div>
         </div>
