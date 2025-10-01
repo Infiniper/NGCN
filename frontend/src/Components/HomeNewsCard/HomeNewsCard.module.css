@@ -57,9 +57,9 @@
     /* background-color: var(--background); */
 }
 
-.container:hover{
+/* .container:hover{
     background-color: rgb(245, 245, 245);
-}
+} */
 
 .date p{
     font-size: 0.8rem;

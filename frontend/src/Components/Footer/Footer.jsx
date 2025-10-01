@@ -30,22 +30,22 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link to="/Research">
+            <Link to="/research">
               <p>Research</p>
             </Link>
           </li>
           <li>
-            <Link to="/Publications">
+            <Link to="/publications">
               <p>Publications</p>
             </Link>
           </li>
           <li>
-            <Link to="/People">
+            <Link to="/people">
               <p>People</p>
             </Link>
           </li>
           <li>
-            <Link to="/Gallery">
+            <Link to="/gallery">
               <p>Gallery</p>
             </Link>
           </li>
