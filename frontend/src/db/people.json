@@ -96,6 +96,14 @@
         "photo": "./Images/p12.jpg"
     },
     {
+        "name": "Addanki Tirumala Vishnu Vardhan",
+        "batch": "2025",
+        "expertise": "ML, NLP, LLMs, IoTs, GenAI, SLMs",
+        "description": "Working on transformer-based generative models with a focus on multimodal extensions for real-world applications. My current work involves creating a solution for visually impaired individuals that provides spatial awareness and navigation cues through haptic and audio feedback. My research interests also include optimizing on-device models and exploring methods to distill Large Multimodal Language Models (LMMs) into Small Multimodal Language Models (SMLMs) for resource-constrained environments.",
+        "email": "vishnuvardhanaddanki22@gmail.com",
+        "photo": "./Images/vishnuvardhan_2025.jpg"
+    },
+    {
         "name": "Dr. Konduri Ramesh",
         "batch": "QIP Alumni",
         "expertise": "Networking",
