@@ -8,7 +8,7 @@ A modern web platform showcasing cutting-edge research in computing and networki
 
 
 
-![Homepage Screenshot](/assets/homepage-screenshot.png)
+[![Homepage Screenshot](/assets/homepage-screenshot.png)](https://ngcn.netlify.app/)
 
 
 ---
