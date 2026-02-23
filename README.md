@@ -65,12 +65,6 @@ A modern web platform showcasing cutting-edge research in computing and networki
 - **Logging**: Morgan 1.10.1
 - **Development**: Nodemon 3.1.10
 
-### Development Tools
-- **Linting**: ESLint 9.34.0
-- **Formatting**: Prettier 3.6.2
-- **Task Runner**: Concurrently 9.2.1
-- **Containerization**: Docker (docker-compose.yml included)
-
 ---
 
 ## 📁 Project Structure
@@ -120,7 +114,6 @@ Before you begin, ensure you have the following installed:
 - **Node.js** (v16 or higher)
 - **npm** (v7 or higher) or **yarn**
 - **Git**
-- **Docker** (optional, for containerized deployment)
 
 ### Installation
 
