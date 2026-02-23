@@ -1,41 +1,18 @@
-# NGCN - Next Gen Computing And Networking 🚀
+# NGCN - Next Gen Computing And Networking
 
 **Research at the Edge of Computing & Networking**
 
 A modern web platform showcasing cutting-edge research in computing and networking technologies. Built with React and Express, NGCN serves as a comprehensive hub for research publications, team profiles, blog posts, and gallery content.
 
-[🌐 Live Demo](https://ngcn.netlify.app/)
+### [🌐 Live Demo](https://ngcn.netlify.app/)
+
+
+
+![Homepage Screenshot](/assets/homepage-screenshot.png)
+
 
 ---
 
-## 📋 Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-## 🔬 About
-
-NGCN is a research group focused on advancing the state-of-the-art in computing and networking technologies. Our work spans a wide range of areas, from fundamental theoretical research to practical system design and implementation. We are committed to pushing the boundaries of what is possible and creating innovative solutions to real-world problems.
-
-This repository contains the source code for the NGCN website, which provides:
-- Research publications and findings
-- Team member profiles and expertise
-- Blog posts about latest developments
-- Photo gallery from events and activities
-- Contact information and collaboration opportunities
-
----
 
 ## ✨ Features
 
@@ -230,109 +207,16 @@ cd backend
 npm start
 ```
 
-#### Using Docker (Optional)
-
-```bash
-docker-compose up
-```
-
----
-
-## 🌐 Deployment
-
-The NGCN website is deployed on Netlify at: [https://ngcn.netlify.app/](https://ngcn.netlify.app/)
-
-### Deploying Frontend to Netlify
-
-1. Build the frontend:
-   ```bash
-   cd frontend
-   npm run build
-   ```
-
-2. Deploy the `dist` folder to Netlify
-
-### Backend Deployment
-
-The backend can be deployed to any Node.js hosting platform such as:
-- Heroku
-- Railway
-- Render
-- DigitalOcean
-- AWS EC2
-
-Ensure environment variables are properly configured on your hosting platform.
-
----
-
-## 🤝 Contributing
-
-We welcome contributions to the NGCN project! Here's how you can help:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. **Commit your changes**
-   ```bash
-   git commit -m 'Add some amazing feature'
-   ```
-4. **Push to the branch**
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. **Open a Pull Request**
-
-### Code Style
-
-- Follow the existing code style
-- Run linting before committing:
-  ```bash
-  # Frontend
-  cd frontend
-  npm run lint
-  
-  # Use root prettier/eslint
-  npm run lint
-  ```
-
----
-
-## 📄 License
-
-This project is licensed under the ISC License - see the LICENSE file for details.
-
 ---
 
 ## 📧 Contact
 
-For questions, collaboration opportunities, or more information:
-- Visit our website: [https://ngcn.netlify.app/](https://ngcn.netlify.app/)
-- Use the contact form on the website
-- GitHub Issues: [https://github.com/Infiniper/NGCN/issues](https://github.com/Infiniper/NGCN/issues)
+Email: [infiniper@gmail.com](infiniper@gmail.com)
 
 ---
 
-## 📸 Screenshots
-
-> Note: Add screenshots of your application here
-
-### Homepage
-![Homepage Screenshot](./path/to/homepage-screenshot.png)
-
-### Research Publications
-![Research Page Screenshot](./path/to/research-screenshot.png)
-
-### Team Page
-![Team Page Screenshot](./path/to/team-screenshot.png)
-
-### Gallery
-![Gallery Screenshot](./path/to/gallery-screenshot.png)
-
----
 
 <div align="center">
-  <p>Built with ❤️ by the NGCN Team</p>
+  <p>Built with ❤️</p>
   <p>⭐ Star us on GitHub if you find this project useful!</p>
 </div>
