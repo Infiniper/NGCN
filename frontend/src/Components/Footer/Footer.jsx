@@ -135,7 +135,7 @@ const Footer = () => {
           <a href="/privacy">Privacy Policy</a> */}
         {/* </div> */}
         <div>
-          <p class="footer-credits">
+          <p className="footer-credits">
             Made with ❤️ by
             <a href="mailto:vishwajeetsingh1567@gmail.com"> Vishwajeet, </a>
             <a href="mailto:shashwatp108@gmail.com">Shashwat, </a>

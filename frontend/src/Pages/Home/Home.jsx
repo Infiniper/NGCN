@@ -10,6 +10,7 @@ import tweets from "../../db/tweets.json";
 import HomeImpactCard from "../../Components/HomeImpactCard/HomeImpactCard";
 import HomeBlogCard from "../../Components/HomeBlogCard/HomeBlogCard";
 import HomeNewsCard from "../../Components/HomeNewsCard/HomeNewsCard";
+import TweetErrorBoundary from "../../Components/TweetErrorBoundary/TweetErrorBoundary";
 
 
 function Home() {
@@ -51,9 +52,8 @@ function Home() {
                 <div>
                     <div className={styles.impactCards}>
                         {impact.map(card => (
-                            <Link to={card.link} style={{ textDecoration: 'none' }}>
+                            <Link key={card.id} to={card.link} style={{ textDecoration: 'none' }}>
                                 <HomeImpactCard
-                                    key={card.id}
                                     image={card.image}
                                     title={card.title}
                                     description={card.description}
@@ -90,7 +90,9 @@ function Home() {
                     <div className={styles.tweetsContainer}>
                         {tweets.map(card => (
                             <div key={card.id} className={styles.tweetCard} data-theme="light">
-                                <Tweet id={card.tweetId} />
+                                <TweetErrorBoundary>
+                                    <Tweet id={card.tweetId} />
+                                </TweetErrorBoundary>
                             </div>
                         ))}
                     </div>
